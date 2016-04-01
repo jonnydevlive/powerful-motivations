@@ -1,0 +1,44 @@
+body{
+  background-color:#EEE;
+  color:#666;
+  text-align:center;
+}
+
+#version-selector{
+  background-color:#CCC;
+  border-radius: 6px;
+  margin: 0 auto;
+  padding:1.5em;
+  width:160px;
+}
+
+h3{
+  margin:0 0 0.5em;
+}
+
+a{
+  border-radius: 3px;
+  color:#CCC;
+  display:block;
+  font-weight:bold;
+  margin-bottom:1em;
+  padding:1em 1em 1em 3em;
+  text-align: left;
+  text-decoration: none;
+}
+
+a.angular2{
+  background: no-repeat #666 url('/images/angular2-logo.png') 0.5em 0.5em / 20%;
+}
+
+a.react-redux{
+  background: no-repeat #666 url('/images/react-logo.png') 0.5em 0.5em / 20%;
+}
+
+a:hover{
+  background-color:#333;
+}
+
+a:last-child{
+  margin-bottom:0;
+}
